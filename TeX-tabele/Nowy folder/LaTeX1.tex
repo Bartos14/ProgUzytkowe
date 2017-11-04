@@ -1,0 +1,72 @@
+\documentclass{article}
+\usepackage[a4paper,left=3.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
+%%\usepackage[MeX]{polski}
+\usepackage[cp1250]{inputenc}
+\usepackage{polski}
+%%\usepackage[utf8]{inputenc}
+\usepackage[pdftex]{hyperref}
+\usepackage{makeidx}
+\usepackage[tableposition=top]{caption}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{multirow}
+\usepackage{amsmath} %pakiet matematyczny
+\usepackage{amssymb} %pakiet dodatkowych symboli
+\usepackage[table]{xcolor}
+\begin{document}
+\begin{table}
+	\centering
+		\begin{tabular}{|c|c|c|c|c|c|c|}
+	   \hline 
+		\multirow{2}{*}{No. of visual words} & \multicolumn{6}{c|}{Dataset} \\ \cline{2-7}
+		& 1 & 2 & 3 & 4 & 5 & 6 \\ \hline 
+		50 & 61,27\% & 88,92\% & 77,88\% & 55,66\% & 44,33\% & 22,33\% \\ \hline
+		100 & 61,27\% & 88,92\% & 77,88\% & 55,66\% & 44,33\% & 22,33\% \\ \hline
+		200 & 61,27\% & 88,92\% & 77,88\% & 55,66\% & 44,33\% & 22,33\% \\ \hline
+		500 & 61,27\% & 88,92\% & 77,88\% & 55,66\% & 44,33\% & 22,33\% \\ \hline
+		1000 & 61,27\% & 88,92\% & 77,88\% & 55,66\% & 44,33\% & 22,33\% \\ \hline
+		1500 & 61,27\% & 88,92\% & 77,88\% & 55,66\% & 44,33\% & 22,33\% \\ \hline
+		\end{tabular}
+	\caption{jakis tytul}
+	\label{tab:asd}
+\end{table}
+	\begin{table}
+		\centering
+		\begin{tabular}{|r|l|}
+		\hline
+		7C0 & hexadecimal \\
+		3700 & ocitimal \\ \cline{2-2}
+		11111000000000 & binary \\ \hline \hline
+		1984 & decimal \\
+		\hline
+			
+		\end{tabular}
+	\end{table}	
+	\begin{table}
+		\centering
+			\begin{tabular}{c|c|c}
+			\hline \hline
+			$x_1$ & $x_2$ & $\left(x_1ANDx_2 \right)$ \\ \hline
+			1 & 1 & 1 \\
+			1 & 0 & 0 \\
+			0 & 1 & 0 \\
+			0 & 0 & 0 \\
+			\hline \hline
+			\end{tabular}
+	\end{table}
+	
+	\begin{table}
+		\centering
+			\begin{tabular}{|c|c|c|c|c|c|}
+			\hline
+			  \multirow{2}{*}{1213231123} \multicolumn{2}{c|}{1} & \multicolumn{4}{c|}{Primics} \\  \hline
+			  &   & 2 & 3 & 5 & 7 \\ \hline
+				\multirow{2}{*}{Powers}& 507 & 3 & 2 & 0 & 1 \\ \cline{2-6}
+				& 540 & 2 & 3 & 1 & 0 \\ \hline
+				\multirow{2}{*}{Powers}& gcd & 3 & 2 & 0 & 1 \\ \cline{2-6}
+				& lem & 2 & 3 & 1 & 0 \\ \hline
+				
+			\end{tabular}
+	\end{table}
+\end{document}

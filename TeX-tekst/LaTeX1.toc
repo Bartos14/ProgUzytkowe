@@ -1,0 +1,2 @@
+\contentsline {section}{\numberline {1}sekcja}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}subsekcja}{1}{subsection.1.1}
